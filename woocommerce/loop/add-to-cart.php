@@ -27,6 +27,11 @@ echo apply_filters( 'woocommerce_loop_add_to_cart_link', // WPCS: XSS ok.
 		esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
 		esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
 		isset( $args['attributes'] ) ? wc_implode_html_attributes( $args['attributes'] ) : '',
-		esc_html( $product->add_to_cart_text() )
+		// esc_html( $product->add_to_cart_text() )
+ 			'<div class="add-to-cart-text-custom">
+				<span class="add-to-cart-text-custom-p-1">Kosárba</span>
+				<span class="add-to-cart-text-custom-p-2"><img src="http://localhost/ref_project_4/wp-content/uploads/2019/09/shopping-bag3.png" alt="" class="shopping-bag-purple-icon add_to_cart_button ajax_add_to_cart"></span>
+			</div>'
 	),
 $product, $args );
+?>

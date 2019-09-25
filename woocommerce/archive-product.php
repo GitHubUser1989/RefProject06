@@ -31,6 +31,7 @@ get_header( 'shop' );
 
 <div class="left-sidebar">
   <?php dynamic_sidebar('rp6-left-sidebar'); ?>
+  <?php   echo do_shortcode( '[searchandfilter id="product_filters"]' ); ?>
 </div>
 
 

@@ -11,9 +11,9 @@
   </head>
 
 
-  <body <?php body_class(); ?>>
+  <body <?php body_class("woocommerce"); ?>>
 
-    <div class="wrapper">
+    <div class="wrapper clearfix">
 
 
       <div class="topbar">

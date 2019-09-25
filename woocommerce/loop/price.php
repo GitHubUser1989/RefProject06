@@ -23,5 +23,5 @@ global $product;
 ?>
 
 <?php if ( $price_html = $product->get_price_html() ) : ?>
-	<span class="price"><?php echo $price_html; ?></span>
+	<span class="price"><span>Ár: </span><?php echo $price_html; ?><span>.-Ft</span></span>
 <?php endif; ?>

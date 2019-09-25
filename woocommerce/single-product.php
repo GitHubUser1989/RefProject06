@@ -21,6 +21,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); ?>
 
+<div class="left-sidebar-home">
+  <?php dynamic_sidebar('rp6-left-sidebar-home'); ?>
+</div> 
+
 	<?php
 		/**
 		 * woocommerce_before_main_content hook.

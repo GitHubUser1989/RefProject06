@@ -1,3 +1,5 @@
+<?php /* Template Name: Home Page Template */ ?>
+
 <?php get_header(); ?>
 
 <!-- HTML goes here -->

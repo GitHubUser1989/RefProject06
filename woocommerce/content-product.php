@@ -65,5 +65,4 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	do_action( 'woocommerce_after_shop_loop_item' );
 	?>
 	<img src="http://localhost/ref_project_4/wp-content/uploads/2019/09/like.png" alt="" class="heart-icon">
-	<img src="http://localhost/ref_project_4/wp-content/uploads/2019/09/shopping-bag3.png" alt="" class="shopping-bag-purple-icon add_to_cart_button ajax_add_to_cart">
 </li>
